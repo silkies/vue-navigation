@@ -1,24 +1,11 @@
 # vue-navigation
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a microfrontend vue-navigation application.  
+This project uses [Vue](https://vuejs.org/) and was created with the [create-single-spa CLI](https://single-spa.js.org/docs/create-single-spa/).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Running project
 
-### Lints and fixes files
-```
-npm run lint
-```
+Run `npm run serve` to run the project locally. You can verify if you are able to load the file at http://localhost:8081/js/app.js
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This app is accessible from [root-config](https://github.com/silkies/root-config) at http://localhost:9000/
